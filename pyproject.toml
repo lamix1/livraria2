@@ -1,0 +1,19 @@
+[tool.pdm]
+
+[project]
+name = "Livraria"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Camila Cristina", email = "camilacristina328santoss@gmail.com"},
+]
+dependencies = [
+    "django>=4.1.7",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
